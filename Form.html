@@ -1,15 +1,35 @@
 <html>
     <head>
         <title> Feedbackback Form </title>
-        <style>
-            form{
-                text-align: center;
-            }
-        </style>
+
+    <style>
+    form {
+        text-align: center;
+        background-color: lightblue;
+        opacity: 0.8;
+        padding: 20px;
+    }
+    
+    .box {
+        border: 1px solid rgb(202, 188, 188);
+        padding: 20px;
+        margin-top: 20px;
+        background-color: rgb(201, 187, 187);
+    }
+    
+    h1 {
+        font-size: 42px;
+        font-style: italic;
+        text-align: center;
+        text-transform: uppercase;
+        color: darkslategray;
+    }
+    </style>
     </head>
     <body align="center">
         <h1>My feedback form</h1>
     </body>
+    <div class="box">
     <form>
         Name:<input type="text" name="Name" maxlength="20" placeholder="Enter your name" required><br>
         Email:<input type="text" name="Email" placeholder="Enter your email ID" required><br>
@@ -48,6 +68,9 @@
         <option value="GHI">GHI</option>
         <option value="JKL">JKL</option>
     </select>
-
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
     </form>
+    </div>
 </html>
