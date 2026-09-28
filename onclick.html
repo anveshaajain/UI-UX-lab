@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>ON CLICK</title>
+        <script language = "javascript">
+            function sumitinfo(){
+            if (qz.log.value == "")
+                alert("Enter login name")
+            else if(qz.pas.value == "")
+                alert("enter password name")
+            }
+        </script>
+    </head>
+    <body align = "center" bgcolor="lightblue">
+        <form name="qz">
+            <h3>Welcome to:</h3>
+            <h1 align="center"> NISIKI Technologies(P) ltd </h1>
+            <hr>
+            <b>login name<br><input type="text" name="log" value=""> <br><br>
+            password</b><br><input type="password" name="pas" value=""> <br><br>
+            <input type="button" value="Submit" onclick=sumitinfo()>
+            <input type="reset" name="Reset" value="Reset">
+        </form>
+    </body>
+</html>
